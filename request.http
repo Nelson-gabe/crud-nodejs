@@ -1,0 +1,30 @@
+###
+POST http://localhost:9000/api/noticias HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "Nuevos baños",
+    "contenido": "El colegio estrenara baños nuevos para los estudiantes",
+    "imagen": "C:/Users/Nelso/OneDrive/Imágenes/temp/Duko_concierto.jpg"
+
+}
+
+###
+GET http://localhost:9000/api/noticias HTTP/1.1
+
+###
+GET http://localhost:9000/api/noticias/664bf9d6354ce2b68aa8706c HTTP/1.1
+
+###
+PUT http://localhost:9000/api/noticias/664bf9d6354ce2b68aa8706c HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "Nuevos Baños",
+    "contenido": "Necesitamos nuevos baños en el altico",
+    "imagen": "C:/Users/Nelso/OneDrive/Imágenes/temp/Duko_concierto.jpg"
+
+}
+
+###
+DELETE http://localhost:9000/api/noticias/664bf9d6354ce2b68aa8706c HTTP/1.1

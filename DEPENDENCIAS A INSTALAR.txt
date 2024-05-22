@@ -1,0 +1,6 @@
+npm i dotenv
+npm i mongoose 
+npm install
+npm i nodemon -D
+
+para correr el request el client rest (extension de vs)
